@@ -1,0 +1,174 @@
+
+body {
+    margin: 60px 5px 35px 5px;
+    background-color: #1985A1;
+}
+
+.flex-container {
+    display: flex;
+}
+
+nav {
+    font-family: "Arsenal SC", sans-serif;
+    background-color: #DCDCDD;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    border: black 1px solid;
+    border-radius: 0px  0px 10px 10px;
+}
+
+.navItem {
+    padding: 0px 10px 0px 10px;
+}
+
+footer {
+    background-color: #DCDCDD;
+    border: black 1px solid;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    justify-content: center;
+}
+
+.splash {
+    background-color: #DCDCDD;
+    border: black 1px solid;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+h1 {
+    font-family: "Playwrite CA", cursive;
+    font-weight: 400;
+    order:0;
+}
+
+img {
+    border-radius: 10px;
+    border: 1px solid black;
+    order: 1;
+}
+
+.address {
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    order: 2;
+}
+
+#tag-line {
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    order: 3;
+    font-size: 1.5em;
+}
+
+hr {
+    border: 8px double black;
+    border-radius: 10px;
+}
+
+.other {
+    background-color: #DCDCDD;
+    border: black 1px solid;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+
+h2 {
+    font-family: "Playwrite CA", cursive;
+    font-weight: 800;
+    font-style: normal;
+    color: #1985A1;
+    text-decoration: underline;
+    font-size: 1.3em;
+}
+
+#edPara {
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: 400;
+}
+
+ul {
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: 400;
+}
+
+dl {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: 400;
+}
+
+dd {
+    text-align: right;
+}
+
+a {
+    color: rgb(156, 104, 240);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(92, 0, 240);
+    font-weight: 800;
+}
+
+a:visited {
+    color: rgb(38, 0, 255);
+}
+
+.three-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.card {
+    background-color: #ffffff;
+    border: black 1px solid;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 4px 3px 5px #000000;
+}
+
+.card:hover {
+    box-shadow: 4px 3px 5px #888888;
+}
+
+.one-col {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 5px;
+    background-color: #DCDCDD;
+    border: black 1px solid;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+label {
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: 600;
+}
+
+input {
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: 400;
+}
